@@ -43,17 +43,3 @@ DELETE /product/{id} - Inactivate data.
 The project uses PostgresSQL as the database. The necessary database migrations are managed using Flyway.
 
 To install PostgresSQL locally you can [click here](https://www.postgresql.org/download/).
-
-## Docker
-
-You can run this project with Docker by running the following command:
-
-
-```bash
-$ docker-compose up
-```
-Run the application and access http://localhost:15432
-
-Enter the email and password configured in [Docker file](./docker-compose.yml).
-
-To install Docker locally you can [click here](https://www.docker.com/products/docker-desktop/).
